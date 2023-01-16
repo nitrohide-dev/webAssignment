@@ -1,0 +1,150 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Page Title</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="mainpage.html">Home</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+  <a href="list.html">
+    <button>View my goals</button>
+  </a>
+</main>
+      <form>
+        <h2>Create a Goal</h2>
+        <label for="goalName">Goal Name:</label>
+        <input type="text" id="goalName" name="goalName">
+        <br>
+        <label for="description">Description:</label>
+        <textarea id="description" name="description"></textarea>
+        <br>
+        <label for="specific">Specific:</label>
+        <input type="text" id="specific" name="specific">
+        <br>
+        <label for="measurable">Measurable:</label>
+        <input type="text" id="measurable" name="measurable">
+        <br>
+        <label for="achievable">Achievable:</label>
+        <input type="text" id="achievable" name="achievable">
+        <br>
+        <label for="relevant">Relevant:</label>
+        <input type="text" id="relevant" name="relevant">
+        <br>
+        <label for="time-bound">Time-bound:</label>
+        <input type="text" id="time-bound" name="time-bound">
+        <br>
+        <label for="dueDate">Due Date:</label>
+        <input type="date" id="dueDate" name="dueDate">
+        <br>
+        <input type="submit" value="Create Goal">
+      </form>
+</body>
+<style>
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+button {
+        background-color: #000000; 
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 10px;}
+form {
+  width: 500px;
+  margin: 0 auto;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 18px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 8px;
+}
+
+input[type="text"], textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 18px;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: #4CAF55;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+main a {
+        text-align: center;
+        display: block;
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+
+main {
+  padding: 53px;
+  text-align: center;
+}
+
+
+    
+</style>
+</html>
